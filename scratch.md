@@ -2,6 +2,7 @@
 
 ## Install Python 3.13 + venv tooling
 ```bash
+su
 apt install -y software-properties-common
 add-apt-repository ppa:deadsnakes/ppa
 apt update
