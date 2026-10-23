@@ -10,6 +10,8 @@ uv pip install fastapi "uvicorn[standard]"
 NOTE: (If you use a `pyproject.toml` file, run `uv add fastapi "uvicorn[standard]"` instead.)
 
 ---
+
+### Native Uvicorn with Unix Socket Configuration
 - `/etc/systemd/system/fastapi.service`
 - Notice the `.venv` path, the `--uds` flag (no `unix:` prefix), and `--proxy-headers` so FastAPI trusts traffic forwarded by `Nginx`
 ```bash
