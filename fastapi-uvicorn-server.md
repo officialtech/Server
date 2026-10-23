@@ -1,4 +1,4 @@
-# Same like Gunicorn you can setup Gunicorn
+# Same like Gunicorn you can setup "Uvicorn"
 
 ---
 ### Ensure Dependencies Are Installed via `uv`
